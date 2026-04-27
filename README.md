@@ -13,19 +13,19 @@ Efficient energy management system tracking sensor data across any energy source
 ## Project Structure (Standard Maven)
 
 energy-monitoring/
-├── .mvn/ # Maven Wrapper
-├── src/
-│ ├── main/java/com/example/energymonitoring/
-│ │ ├── controller/ # REST API endpoints
-│ │ ├── model/ # JPA Entities
-│ │ ├── repository/ # Spring Data JPA
-│ │ ├── service/ # Business Logic
-│ │ └── EnergyMonitoringApplication.java
-│ └── test/java/com/example/energymonitoring/
-│ └── EnergyMonitoringApplicationTests.java
-├── pom.xml # Maven dependencies
-├── mvnw & mvnw.cmd # Maven Wrapper (no install needed)
-└── rnwdtb.sql # MySQL schema
+. .mvn/ # Maven Wrapper
+.  src/
+    .main/java/com/example/energymonitoring/
+      . controller/ # REST API endpoints
+      . model/ # JPA Entities
+      . repository/ # Spring Data JPA
+      . service/ # Business Logic
+      . EnergyMonitoringApplication.java
+    .test/java/com/example/energymonitoring/
+    .EnergyMonitoringApplicationTests.java
+    pom.xml # Maven dependencies
+    mvnw & mvnw.cmd # Maven Wrapper (no install needed)
+    rnwdtb.sql # MySQL schema
 
 ## Features 
 - Real-time sensor data ingestion & storage
